@@ -63,5 +63,5 @@ group :test do
   gem 'launchy'
   gem 'rcov'
   gem 'rspec-rails-matchers'
-  gem 'pdf-inspector', '0.7.99', :git => 'git://github.com/sandal/pdf-inspector.git'
+  gem 'pdf-inspector', '>= 0.7.99', :git => 'git://github.com/sandal/pdf-inspector.git'
 end
